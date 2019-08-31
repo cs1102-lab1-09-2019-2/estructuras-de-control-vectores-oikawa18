@@ -1,19 +1,14 @@
-/*
-Escribir un programa que imprima lo siguiente:
-
-12*****
-123****
-1234***
-12345**
-123456*
-1234567
-
-*/
 
 #include <iostream>
-using std::cout;
+using namespace std;
 
 int main() {
+  cout<<"12*****"<<"\n";
+  cout<<"123****"<<"\n";
+  cout<<"1234***"<<"\n";
+  cout<<"12345**"<<"\n";
+  cout<<"123456*"<<"\n";
+  cout<<"1234567"<<"\n";
 
 
     return 0;
