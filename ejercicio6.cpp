@@ -1,6 +1,12 @@
-/*
-
- Leer tres numeros del usuario separados por espacio: 10 15 20
- Y encuentra el mayor valor: 30
-
- */
+#include <iostream>
+using namespace std;
+int main(){
+  int x,y,z;
+  cin>>x>>y>>z;
+  if(x>y&& x>z)
+  cout<<x;
+  else if(y>x&& y>z)
+  cout<<y;
+  else if(z>x&& z>y)
+  cout<<z;
+}
